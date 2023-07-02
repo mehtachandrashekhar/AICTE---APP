@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top: 10),
+                          margin: EdgeInsets.only(),
                           height: 63,
                           width: 63,
                           // color: Colors.yellow,
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 10, left: 5),
+                          margin: EdgeInsets.only(),
                           height: 20,
                           width: 120,
                           // color: Colors.red,
