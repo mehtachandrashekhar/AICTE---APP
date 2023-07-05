@@ -52,8 +52,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -76,8 +76,8 @@ class _HomePageState extends State<HomePage> {
                         //for image
                         Container(
                           margin: EdgeInsets.only(),
-                          height: 63,
-                          width: 63,
+                          // height: 63,
+                          // width: 63,
                           // color: Colors.yellow,
                           child: Image.asset(
                               "assets/images/schemes-1.png"),
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                         //for text
                         Container(
                           margin: EdgeInsets.only(),
-                          height: 20,
+                          height: 30,
                           width: 120,
                           // color: Colors.red,
                           child: const Text(
@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                             style: TextStyle(
                                 fontFamily: "Ubuntu",
                                 fontWeight: FontWeight.bold,
-                                fontSize: 14.5,
+                                fontSize: 20,
                                 color: Colors.black),
                           ),
                         ),
@@ -108,8 +108,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  width: 30,
+                  height: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -132,8 +132,8 @@ class _HomePageState extends State<HomePage> {
                         //for image
                         Container(
                           margin: EdgeInsets.only(top: 9),
-                          height: 70,
-                          width: 70,
+                          height: 30,
+                          width: 30,
                           // color: Colors.yellow,
                           child: Image.asset("assets/images/arrow_right.png"),
                         ),
@@ -282,8 +282,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -293,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                     ),
 
                     onPressed: () async {
-                      //for check internet Conection
+                      //for check internet Connection
                       final internetConnection =
                       await Connectivity().checkConnectivity();
                       checkInternetConnection(internetConnection,
@@ -311,8 +311,8 @@ class _HomePageState extends State<HomePage> {
                           // color: Colors.yellow,
                           child:
                           Image.asset("assets/images/circular.png",
-                            height: 140,
-                            width: 145,
+                            height: 70,
+                            width: 70,
                             fit: BoxFit.fill,
                           ),
                         ),
