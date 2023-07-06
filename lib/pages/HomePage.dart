@@ -187,9 +187,9 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top:8),
+                          margin: EdgeInsets.only(),
                           height: 65,
-                          width: 115,
+                          width: 65,
                           // color: Colors.yellow,
                           child:
                           Image.asset("assets/images/internship.png",
@@ -235,7 +235,7 @@ class _HomePageState extends State<HomePage> {
                     ),
 
                     onPressed: () async {
-                      //foe check internet Conection
+                      //foe check internet Connection
                       final internetConnection =
                       await Connectivity().checkConnectivity();
                       checkInternetConnection(
