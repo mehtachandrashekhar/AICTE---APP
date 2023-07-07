@@ -329,7 +329,7 @@ class _HomePageState extends State<HomePage> {
                               style: TextStyle(
                                   fontFamily: "Ubuntu",
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 18,
+                                  fontSize: 20,
                                   color: Colors.black),
                             ),
                           ),
@@ -386,7 +386,7 @@ class _HomePageState extends State<HomePage> {
                             style: TextStyle(
                                 fontFamily: "Ubuntu",
                                 fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                                fontSize: 20,
                                 color: Colors.black),
                             textAlign: TextAlign.center,
                           ),
