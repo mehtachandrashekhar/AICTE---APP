@@ -86,8 +86,8 @@ class _HomePageState extends State<HomePage> {
                         //for text
                         Container(
                           margin: EdgeInsets.only(),
-                          height: 30,
-                          width: 120,
+                          // height: 30,
+                          // width: 120,
                           // color: Colors.red,
                           child: const Text(
                             "Schemes",
@@ -141,8 +141,8 @@ class _HomePageState extends State<HomePage> {
                         //for text
                         Container(
                           margin: EdgeInsets.only(top: 4),
-                          height: 20,
-                          width: 120,
+                          // height: 20,
+                          // width: 120,
                           // color: Colors.red,
                           child: const Text(
                             "More",
@@ -160,12 +160,12 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
 
-              // INERNSHIP
+              // INTERNSHIP
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -188,8 +188,8 @@ class _HomePageState extends State<HomePage> {
                         //for image
                         Container(
                           margin: EdgeInsets.only(),
-                          height: 65,
-                          width: 65,
+                          // height: 65,
+                          // width: 65,
                           // color: Colors.yellow,
                           child:
                           Image.asset("assets/images/internship.png",
@@ -200,17 +200,17 @@ class _HomePageState extends State<HomePage> {
                         //for text
                         Container(
                           margin: EdgeInsets.only(top: 8, left: 8),
-                          height: 20,
-                          width: 120,
+                          // height: 20,
+                          // width: 120,
                           // color: Colors.red,
                           child: Center(
-                            child: const Text(
-                              "Internship",
+                            child: const Text("Internship",
                               style: TextStyle(
                                   fontFamily: "Ubuntu",
                                   fontWeight: FontWeight.bold,
                                   fontSize: 18,
-                                  color: Colors.black),
+                                  color: Colors.black
+                              ),
                             ),
                           ),
                         ),
@@ -224,8 +224,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -345,8 +345,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
