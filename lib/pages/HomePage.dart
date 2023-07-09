@@ -231,7 +231,7 @@ class _HomePageState extends State<HomePage> {
                     style: ElevatedButton.styleFrom(
                       primary: HexColor("D9D9D9"),
                       shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
+                          borderRadius: BorderRadius.circular(15)),
                     ),
 
                     onPressed: () async {
