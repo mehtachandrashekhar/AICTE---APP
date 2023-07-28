@@ -2,7 +2,6 @@ import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-
 import '../models/Row_Element_1.dart';
 import '../models/Row_Element_2.dart';
 import 'InternetErrorPage.dart';
@@ -38,23 +37,29 @@ class _HomePageState extends State<HomePage> {
           toolbarHeight: 77,
         ),
         backgroundColor: HexColor("#FCED9F"),
-        body: Row(
+        body: Column(
           children: [
-            const Text("hello carlousel slider"),
-            Align(
-              alignment: Alignment.bottomCenter,
+            Container(
+              margin: const EdgeInsets.all(9),
+              height: 170,
+              width: 260,
+              color: Colors.blueGrey,
+              child: const Text("hello world"),
+            ),
+            SizedBox(
+              height: 550,
+              width: 400,
               child: GridView.count(
+                childAspectRatio: 1.1,
                 primary: false,
                 reverse: true,
+                shrinkWrap: true,
                 crossAxisCount: 2,
                 children: [
                   // SCHEMES PAGE
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      height: 60,
-                      width: 60,
-                      // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           backgroundColor: HexColor("D9D9D9"),
@@ -107,9 +112,6 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      width: 30,
-                      height: 30,
-                      // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           primary: HexColor("D9D9D9"),
@@ -166,9 +168,6 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      height: 30,
-                      width: 30,
-                      // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           backgroundColor: HexColor("D9D9D9"),
@@ -226,12 +225,10 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      height: 30,
-                      width: 30,
                       // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: HexColor("D9D9D9"),
+                          backgroundColor: HexColor("D9D9D9"),
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15)),
                         ),
@@ -284,8 +281,6 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      height: 30,
-                      width: 30,
                       // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
@@ -348,8 +343,6 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: SizedBox(
-                      height: 60,
-                      width: 60,
                       // color: Colors.deepOrange,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
@@ -371,8 +364,8 @@ class _HomePageState extends State<HomePage> {
                             //for image
                             Container(
                               margin: const EdgeInsets.only(top: 10),
-                              height: 145,
-                              width: 145,
+                              height: 100,
+                              width: 100,
                               // color: Colors.yellow,
                               child: Image.asset(
                                 "assets/images/scholarship_r.png",
@@ -385,8 +378,6 @@ class _HomePageState extends State<HomePage> {
                             //for text
                             Container(
                               margin: const EdgeInsets.only(top: 6),
-                              height: 20,
-                              width: 120,
                               // color: Colors.red,
                               child: const Text(
                                 "Scholarship",
