@@ -131,7 +131,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top: 9),
+                          margin: const EdgeInsets.only(top: 9),
                           height: 30,
                           width: 30,
                           // color: Colors.yellow,
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 4),
+                          margin: const EdgeInsets.only(top: 4),
                           // height: 20,
                           // width: 120,
                           // color: Colors.red,
@@ -163,13 +163,13 @@ class _HomePageState extends State<HomePage> {
               // INTERNSHIP
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
+                child: SizedBox(
                   height: 30,
                   width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: HexColor("D9D9D9"),
+                      backgroundColor: HexColor("D9D9D9"),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                     ),
@@ -187,7 +187,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(),
+                          margin: const EdgeInsets.only(),
                           // height: 65,
                           // width: 65,
                           // color: Colors.yellow,
@@ -199,12 +199,12 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 8, left: 8),
+                          margin: const EdgeInsets.only(top: 8, left: 8),
                           // height: 20,
                           // width: 120,
                           // color: Colors.red,
-                          child: Center(
-                            child: const Text("Internship",
+                          child: const Center(
+                            child: Text("Internship",
                               style: TextStyle(
                                   fontFamily: "Ubuntu",
                                   fontWeight: FontWeight.bold,
@@ -223,7 +223,7 @@ class _HomePageState extends State<HomePage> {
               // AICTE APPROVED
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
+                child: SizedBox(
                   height: 30,
                   width: 30,
                   // color: Colors.deepOrange,
@@ -249,7 +249,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top: 8),
+                          margin: const EdgeInsets.only(top: 8),
                           height: 70,
                           width: 70,
                           child:
@@ -258,7 +258,7 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 2),
+                          margin: const EdgeInsets.only(top: 2),
                           height: 20,
                           width: 120,
                           // color: Colors.red,
@@ -281,13 +281,13 @@ class _HomePageState extends State<HomePage> {
               // CIRCULAR PAGE
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
+                child: SizedBox(
                   height: 30,
                   width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: HexColor("D9D9D9"),
+                      backgroundColor: HexColor("D9D9D9"),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                     ),
@@ -305,7 +305,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top: 8),
+                          margin: const EdgeInsets.only(top: 8),
                           height: 70,
                           width: 70,
                           // color: Colors.yellow,
@@ -319,12 +319,12 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 7, left: 8),
+                          margin: const EdgeInsets.only(top: 7, left: 8),
                           height: 20,
                           width: 120,
                           // color: Colors.red,
-                          child: Center(
-                            child: const Text(
+                          child: const Center(
+                            child: Text(
                               "Circular",
                               style: TextStyle(
                                   fontFamily: "Ubuntu",
@@ -344,13 +344,13 @@ class _HomePageState extends State<HomePage> {
               // SCHOLARSHIP
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
+                child: SizedBox(
                   height: 30,
                   width: 30,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: HexColor("D9D9D9"),
+                      backgroundColor: HexColor("D9D9D9"),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                     ),
@@ -365,7 +365,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(top: 10),
+                          margin: const EdgeInsets.only(top: 10),
                           height: 72,
                           width: 125,
                           // color: Colors.yellow,
@@ -377,7 +377,7 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(top: 6),
+                          margin: const EdgeInsets.only(top: 6),
                           height: 20,
                           width: 120,
                           // color: Colors.red,
