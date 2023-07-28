@@ -51,9 +51,9 @@ class _HomePageState extends State<HomePage> {
               // SCHEMES PAGE
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
-                  height: 30,
-                  width: 30,
+                child: SizedBox(
+                  height: 60,
+                  width: 60,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         //for image
                         Container(
-                          margin: EdgeInsets.only(),
+                          margin: const EdgeInsets.only(),
                           // height: 63,
                           // width: 63,
                           // color: Colors.yellow,
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
 
                         //for text
                         Container(
-                          margin: EdgeInsets.only(),
+                          margin: const EdgeInsets.only(),
                           // height: 30,
                           // width: 120,
                           // color: Colors.red,
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
               // MORE PAGE
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: Container(
+                child: SizedBox(
                   width: 30,
                   height: 30,
                   // color: Colors.deepOrange,
@@ -119,7 +119,7 @@ class _HomePageState extends State<HomePage> {
                     ),
 
                     onPressed: () async {
-                      //foe check internet Conection
+                      //foe check internet connection
                       final internetConnection =
                       await Connectivity().checkConnectivity();
                       checkInternetConnection(internetConnection,
@@ -132,17 +132,17 @@ class _HomePageState extends State<HomePage> {
                         //for image
                         Container(
                           margin: const EdgeInsets.only(top: 9),
-                          height: 30,
-                          width: 30,
+                          height: 100,
+                          width: 100,
                           // color: Colors.yellow,
                           child: Image.asset("assets/images/arrow_right.png"),
                         ),
 
                         //for text
                         Container(
-                          margin: const EdgeInsets.only(top: 4),
-                          // height: 20,
-                          // width: 120,
+                          margin: const EdgeInsets.only(top:6),
+                          height: 60,
+                          width: 60,
                           // color: Colors.red,
                           child: const Text(
                             "More",
@@ -345,8 +345,8 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(5.0),
                 child: SizedBox(
-                  height: 30,
-                  width: 30,
+                  height: 60,
+                  width: 60,
                   // color: Colors.deepOrange,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
@@ -366,8 +366,8 @@ class _HomePageState extends State<HomePage> {
                         //for image
                         Container(
                           margin: const EdgeInsets.only(top: 10),
-                          height: 72,
-                          width: 125,
+                          height: 145,
+                          width: 145,
                           // color: Colors.yellow,
                           child: Image.asset("assets/images/scholarship_r.png",
                             height: 140,
